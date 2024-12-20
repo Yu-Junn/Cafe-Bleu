@@ -61,7 +61,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background-color: #e8e4d9; 
+    background-color: #e8e4d9;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,6 +144,7 @@ p {
 ul li {
     margin-bottom: 15px;
 }
+
 /* Video Container */
 .video-container {
     clear: both; 
@@ -247,3 +248,32 @@ footer p {
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* General Button Hover Effect */
+.button:hover {
+    background-color: #2b4f60; 
+    color: white; 
+    border: 2px solid #2b4f60;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Navigation Hover Effect */
+nav ul li a:hover {
+    color: #2b4f60; 
+    border-bottom: 2px solid #2b4f60; 
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+/* Image Hover Effect */
+img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Menu Item Hover Effect */
+.menu-item:hover {
+    background-color: #f9f8f4; 
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
