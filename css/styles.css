@@ -137,6 +137,13 @@ nav ul li a:hover {
     height: auto; 
 }
 
+p {
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
 /* Video Container */
 .video-container {
     clear: both; 
