@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Café Bleu Menu - Explore our seasonal bakery and sustainably sourced coffee.">
-    <title>Menu | Café Bleu</title>
+    <meta name="description" content="Explore Café Bleu's seasonal menu featuring sustainably sourced coffee and freshly baked delights. Updated quarterly with local ingredients.">
+    <meta name="keywords" content="Café Bleu menu, seasonal coffee, bakery items, local ingredients, sustainable coffee, fresh croissants">
+    <title>Menu | Café Bleu | Seasonal Coffee & Bakery Delights</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Menu",
+        "name": "Café Bleu Seasonal Menu",
+        "description": "Discover Café Bleu's seasonal menu featuring sustainably sourced coffee and bakery items made from local ingredients.",
+        "hasMenuSection": [
+            {
+                "@type": "MenuSection",
+                "name": "Coffee",
+                "hasMenuItem": [
+                    {
+                        "@type": "MenuItem",
+                        "name": "Espresso",
+                        "description": "Rich, bold, and freshly brewed to perfection.",
+                        "image": "assets/espresso.jpg"
+                    },
+                    {
+                        "@type": "MenuItem",
+                        "name": "Cappuccino",
+                        "description": "Creamy steamed milk with a shot of our signature espresso.",
+                        "image": "assets/cappucino.jpg"
+                    }
+                ]
+            },
+            {
+                "@type": "MenuSection",
+                "name": "Bakery",
+                "hasMenuItem": [
+                    {
+                        "@type": "MenuItem",
+                        "name": "Butter Croissant",
+                        "description": "Flaky, buttery, and baked fresh every morning.",
+                        "image": "assets/croissant.jpg"
+                    },
+                    {
+                        "@type": "MenuItem",
+                        "name": "Chocolate Cake",
+                        "description": "A moist smooth chocolate cake, drizzled with homemade chocolate sauce.",
+                        "image": "assets/chocolatecake.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <!-- Header -->
@@ -30,22 +77,22 @@
             <p>Discover our sustainably sourced coffee and seasonal bakery delights. Our menu is updated quarterly to bring you the freshest, local ingredients. Below are some of our most popular items.</p>
             <div class="menu-container">
                 <div class="menu-item">
-                    <img src="assets/espresso.jpg" alt="Espresso">
+                    <img src="assets/espresso.jpg" alt="Rich espresso coffee from Café Bleu">
                     <h3>Espresso</h3>
                     <p>Rich, bold, and freshly brewed to perfection.</p>
                 </div>
                 <div class="menu-item">
-                    <img src="assets/cappucino.jpg" alt="Latte">
-                    <h3>Cappuncino</h3>
+                    <img src="assets/cappucino.jpg" alt="Cappuccino with creamy steamed milk">
+                    <h3>Cappuccino</h3>
                     <p>Creamy steamed milk with a shot of our signature espresso.</p>
                 </div>
                 <div class="menu-item">
-                    <img src="assets/croissant.jpg" alt="Butter Croissant">
+                    <img src="assets/croissant.jpg" alt="Flaky butter croissant at Café Bleu">
                     <h3>Butter Croissant</h3>
                     <p>Flaky, buttery, and baked fresh every morning.</p>
                 </div>
                 <div class="menu-item">
-                    <img src="assets/chocolatecake.jpg" alt="Chocolate Cake">
+                    <img src="assets/chocolatecake.jpg" alt="Chocolate cake drizzled with homemade chocolate sauce">
                     <h3>Chocolate Cake</h3>
                     <p>A moist smooth chocolate cake, drizzled with homemade chocolate sauce.</p>
                 </div>
@@ -53,18 +100,19 @@
         </div>
     </section>
 
-<section id="daily-special">
-    <div class="container">
-        <h3>Today's Special</h3>
-        <div id="specialContainer">
-            <!-- Special item details will load here dynamically -->
+    <!-- Daily Special Section -->
+    <section id="daily-special">
+        <div class="container">
+            <h3>Today's Special</h3>
+            <div id="specialContainer">
+                <!-- Special item details will load here dynamically -->
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-   <script src="js/special.js"></script>
+    <script src="js/special.js"></script>
 
- <!-- Footer -->
+    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; 2024 Café Bleu | All Rights Reserved</p>
